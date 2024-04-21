@@ -1,0 +1,178 @@
+/** mobile display **/
+@media screen and (max-width: 480px){
+    *{
+        font-family: 'main-font';
+        font-size: 16px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .main-container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .mainsignin-2-container{
+        display: none;
+    }
+    .ctulogo-container, .parserlogo-container, .sigin-container, .btnSign-container, .lnkSignup-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+    .img-ctulogo{
+        width: 22%;
+    }
+    .img-parserslogo{
+        width: 77%;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 80vh;
+        
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+    }
+    #txtEmail, #txtPassword{
+        width: 70%;
+        height: 10px;
+        border-radius: 100px;
+        border: 1px solid #c7c8cc;
+        padding: 15px;
+        color: #c7c8cc;
+    }
+    #txtEmail::placeholder, #txtPassword::placeholder{
+        color: #c7c8cc;
+    }
+    #txtEmail:focus, #txtPassword:focus{
+        outline: none !important;
+        border: 1px solid #303030;
+        color:#303030;
+    }
+    #txtEmail{
+        margin-bottom: 10px;
+    }
+    #btnSignin{
+        width: 78%;
+        height: 40px;
+        border-radius: 100px;
+        border: none;
+        background-color: #f30505;
+        color: #fefefe;
+    }
+    #lnkSignup{
+        color:#f30505;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    *{
+        font-family: 'main-font';
+        font-size: 16px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .main-container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainsignin-2-container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    .mainsignin-1-container{
+        display: none;
+    }
+    .mainlogo-container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+    }
+    .ctulogo-container, .parserlogo-container, .sigin-container, .btnSign-container, .lnkSignup-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .img-ctulogo{
+        width: 10%;
+    }
+    .img-parserslogo{
+        width: 60%;
+    }
+    #txtEmail, #txtPassword{
+        width: 70%;
+        height: 10px;
+        border-radius: 100px;
+        border: 1px solid #c7c8cc;
+        padding: 15px;
+        color: #c7c8cc;
+    }
+    #txtEmail::placeholder, #txtPassword::placeholder{
+        color: #c7c8cc;
+    }
+    #txtEmail:focus, #txtPassword:focus{
+        outline: none !important;
+        border: 1px solid #303030;
+        color:#303030;
+    }
+    #txtEmail{
+        margin-bottom: 10px;
+    }
+    #btnSignin{
+        width: 78%;
+        height: 40px;
+        border-radius: 100px;
+        border: none;
+        background-color: #f30505;
+        color: #fefefe;
+    }
+    #lnkSignup{
+        color:#f30505;
+    }
+}
+
+/** fonts **/
+@font-face {
+    font-family: 'main-font';
+    src: url(Assets/Fonts/helvetica-light.ttf);
+  }
